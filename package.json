@@ -1,0 +1,28 @@
+{
+  "name": "tauri-double-window-test",
+  "description": "A Nuxt app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt-ts",
+    "dev-tauri": "tauri dev",
+    "build": "nuxt-ts generate && tauri build"
+  },
+  "dependencies": {
+    "@nuxt/typescript-runtime": "2.0",
+    "@tauri-apps/api": "^1.0.0-beta.5",
+    "core-js": "^3.15.2",
+    "nuxt": "^2.15.7",
+    "nuxt-i18n": "^6.27.3",
+    "nuxt-property-decorator": "^2.9.1"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.15.7",
+    "@nuxt/typescript-build": "2.0",
+    "@nuxtjs/svg": "^0.1.12",
+    "@nuxtjs/tailwindcss": "^4.2.1",
+    "@tauri-apps/cli": "^1.0.0-beta.6",
+    "postcss": "^8.3.6",
+    "typescript": "4.1"
+  }
+}
